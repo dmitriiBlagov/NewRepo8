@@ -8,7 +8,7 @@ namespace SingleInstance
         {
             Mutex oneMutex = null;
             const String MutexName = "RUNMEONLYONCE";
-            try // Пытаемся открыть Mutex
+            try // Пытаемся открыть Mutex  
             {
                 oneMutex = Mutex.OpenExisting(MutexName);
             }
