@@ -12,7 +12,7 @@ namespace pr3_01_upr2
       StreamWriter sw = new StreamWriter(@"boot - utf7.txt", false, Encoding.UTF7);
       sw.WriteLine(sr.ReadToEnd());
       sw.Close();
-      sr.Close();
+      sr.Close(); 
 
     }
   }
