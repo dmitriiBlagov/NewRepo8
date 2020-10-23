@@ -19,9 +19,10 @@ namespace prak4_02_upr02
             {
                 object obj = stack.Pop();
                 Console.WriteLine("'From Stack: {0}", obj);
-                //Console.WriteLine("SEDIT: {0}", stack.Peek());
+                //Console.Writ2eLine("SEDIT: {0}", stack.Peek());
             }
 
     }
   }
 }
+   

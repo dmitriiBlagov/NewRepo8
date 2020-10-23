@@ -17,7 +17,7 @@ namespace dict_sample
       lookup["5"] = "Five";
       lookup["6"] = "шесть";
       lookup["7"] = "семь";
-      lookup["8"] = "Eight";
+      lookup["8"]  = "Eight";
       lookup["9"] = "девять";
       lookup["+"] = "плюс";
 

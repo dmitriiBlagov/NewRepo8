@@ -20,7 +20,7 @@ namespace dict_sens
       Console.WriteLine(list["CANADA"]);
       Console.Read();
     }
-
+     
   }
 
 }

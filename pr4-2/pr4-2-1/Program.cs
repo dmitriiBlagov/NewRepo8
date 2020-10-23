@@ -8,7 +8,7 @@ namespace prak4_02_upr01
     static void Main(string[] args)
     {
       Queue queue = new Queue();
-
+       
       queue.Enqueue("EGOR");
       queue.Enqueue("DIMA");
       queue.Enqueue("NASTYA");
