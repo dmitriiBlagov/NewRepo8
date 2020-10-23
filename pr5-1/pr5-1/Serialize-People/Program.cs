@@ -14,7 +14,7 @@ namespace Serialize_People
     {
         static void Main(string[] args)
         {
-            if (args.Length == 0)
+            if (args.Length == 0) 
             {
                 // If they provide no arguments, display the last person
                 Person p = Deserialize();
