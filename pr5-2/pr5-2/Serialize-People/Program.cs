@@ -13,7 +13,7 @@ namespace Serialize_People
     // and then displays that person's age on the console.
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args) 
         {
             if (args.Length == 0)
             {
