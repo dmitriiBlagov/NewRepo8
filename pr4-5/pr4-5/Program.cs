@@ -14,7 +14,7 @@ namespace hash
       countryLookup[55] = "Brazil";
       countryLookup[05] = "Dagestan Marat";
       countryLookup[926] = "Megafon";
-            //countryLookup["64"] = "New Zealand";
+            //countryLookup["64"] = "New Zeala nd"; 
 
             Console.WriteLine("The 33 Code is for: {0}", countryLookup[33]);
       foreach (KeyValuePair<int, String> item in countryLookup)
