@@ -21,7 +21,7 @@ namespace _1
       {
         string type;
         if (o.GetType().IsValueType) type = "Value type";
-        else
+        else 
           type = "Reference Type";
         Console.WriteLine("{0}: {1}", o.GetType(), type);
       }
