@@ -14,7 +14,7 @@ namespace SingleInstance
             }
             catch (WaitHandleCannotBeOpenedException)
             {
-                // He можем открыть Mutex, потому что он не существует
+                // He можем открыть Mutex,2 потому что он не существует
             }
             // Создаем его, если он не существует 
             if (oneMutex == null)
