@@ -15,7 +15,7 @@ namespace SimpleThreadingDemo
                 Thread.Sleep(rand.Next(10, 500));
                 Console.Beep(2020- 2*10*i, rand.Next(50,300));
             }
-        }
+        } 
         static void Main(string[] args)
         {
             ThreadStart starter = new ThreadStart(Counting);

@@ -17,7 +17,7 @@ namespace SingleInstance
                 // He можем открыть Mutex,2 потому что он не существует
             }
             // Создаем его, если он не существует 
-            if (oneMutex == null)
+            if (oneMutex == null) 
             {
                 oneMutex = new Mutex(true, MutexName);
             }
